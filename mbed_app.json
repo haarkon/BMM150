@@ -1,0 +1,10 @@
+{
+    "target_overrides": {
+        "NUCLEO_F429ZI": {
+            "target.ARDUINO_UNO_D11_configuration": "PB_5",
+            "target.ARDUINO_UNO_A3_configuration": "PD_11",
+            "platform.minimal-printf-enable-floating-point":true,
+            "platform.stdio-baud-rate": 921600
+        }
+    }
+}
